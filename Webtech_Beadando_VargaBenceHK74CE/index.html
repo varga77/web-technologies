@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Single Page website</title>
+    <!--Outer css-->
+    <link rel="stylesheet" href="styles/style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
+    <!-- Jquery and bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        body{
+            background-image: url("resources/background_img.png");
+            background-repeat: repeat-y;
+            margin: 0px;
+            color:white;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="goTop" class="btn" title="Go to top">
+        <img src="resources/rocket.png">
+    </button>
+    <nav>
+        <ul>
+            <li>
+                <img  src="resources/logo.png" />
+            </li>
+            <li>
+                <a href="#void"><b>The Void</b></a>
+            </li>
+            <li>
+                <a href="#astronauts"><b>Astronauts</b></a>
+            </li>
+            <li>
+                <a href="#solar"><b>The solar system</b></a>
+            </li>
+            <li>
+                <a href="#list"><b>List</b></a>
+            </li>
+        </ul>
+    </nav>
+    <div id="void">
+        <h1>The outer space</h1>
+        <div class="block">
+            <p>
+                Space is the boundless three-dimensional extent in which objects and events have relative position and direction.[1] In classical physics, physical space is often conceived in three linear dimensions, although modern physicists usually consider it, with time, to be part of a boundless four-dimensional continuum known as spacetime. The concept of space is considered to be of fundamental importance to an understanding of the physical universe. However, disagreement continues between philosophers over whether it is itself an entity, a relationship between entities, or part of a conceptual framework.
+            </p>
+            </br>
+            <p>
+                Debates concerning the nature, essence and the mode of existence of space date back to antiquity; namely, to treatises like the Timaeus of Plato, or Socrates in his reflections on what the Greeks called khôra (i.e. "space"), or in the Physics of Aristotle (Book IV, Delta) in the definition of topos (i.e. place), or in the later "geometrical conception of place" as "space qua extension" in the Discourse on Place (Qawl fi al-Makan) of the 11th-century Arab polymath Alhazen.[2] Many of these classical philosophical questions were discussed in the Renaissance and then reformulated in the 17th century, particularly during the early development of classical mechanics. In Isaac Newton's view, space was absolute—in the sense that it existed permanently and independently of whether there was any matter in the space.[3] Other natural philosophers, notably Gottfried Leibniz, thought instead that space was in fact a collection of relations between objects, given by their distance and direction from one another. In the 18th century, the philosopher and theologian George Berkeley attempted to refute the "visibility of spatial depth" in his Essay Towards a New Theory of Vision. Later, the metaphysician Immanuel Kant said that the concepts of space and time are not empirical ones derived from experiences of the outside world—they are elements of an already given systematic framework that humans possess and use to structure all experiences. Kant referred to the experience of "space" in his Critique of Pure Reason as being a subjective "pure a priori form of intuition".
+                In the 19th and 20th centuries mathematicians began to examine geometries that are non-Euclidean, in which space is conceived as curved, rather than flat. According to Albert Einstein's theory of general relativity, space around gravitational fields deviates from Euclidean space.[4] Experimental tests of general relativity have confirmed that non-Euclidean geometries provide a better model for the shape of space.
+            </p>
+        </div>
+    </div>
+    <div class="parallax" style="background-image: url('resources/parallax.jpg');"></div>
+
+
+    <div id="astronauts">
+        <table style="margin:5%;width: 90%; text-align: center;">
+            <tr>
+                <td>
+                    <div class="zoom" name="imgDiv"> 
+                        <img src="resources/astr1.jpg"/>
+                    </div>
+                </td>
+                <td>
+                    <div class="zoom" name="imgDiv" >
+                        <img src="resources/astr2.jpg"/>
+                    </div>
+                </td>
+                <td>
+                    <div class="zoom" name="imgDiv" >
+                        <img src="resources/astr3.jpg"/>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="solar">
+        <h1>The Solar system</h1>
+        <div class="block">
+            <p>
+                The Solar System[b] is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly.[c] Of the objects that orbit the Sun directly, the largest are the eight planets,[d] with the remainder being smaller objects, the dwarf planets and small Solar System bodies. Of the objects that orbit the Sun indirectly—the natural satellites—two are larger than the smallest planet, Mercury, and one more almost equals it in size.
+            </p>
+            </br>
+            <p>
+                The Solar System formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud. The vast majority of the system's mass is in the Sun, with the majority of the remaining mass contained in Jupiter. The four smaller inner system planets, Mercury, Venus, Earth and Mars, are terrestrial planets, being primarily composed of rock and metal. The four outer system planets are giant planets, being substantially more massive than the terrestrials. The two largest planets, Jupiter and Saturn, are gas giants, being composed mainly of hydrogen and helium; the two outermost planets, Uranus and Neptune, are ice giants, being composed mostly of substances with relatively high melting points compared with hydrogen and helium, called volatiles, such as water, ammonia and methane. All eight planets have almost circular orbits that lie within a nearly flat disc called the ecliptic.
+            </p>
+        </div>
+        <table id="planetTable" class="table">
+            <thead>
+                <tr>
+                    <th>Planet name:</th>
+                    <th>Rank from the Sun</th>
+                    <th>Rank in size</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>2</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>3</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>4</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>5</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>6</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>7</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>8</td>
+                    <td></td>
+                </tr><tr>
+                    <td></td>
+                    <td>9</td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="list">
+    <form>
+        <!--Name-->
+        <div class="form-item">
+            <label for="name">Name: </label>
+            <span id="nameCheck" >Name is missing! </span>
+            <input id="name" type="text" class="form-control">
+        </div>
+        <!--Email-->
+        <div class="form-item">
+            <label for="email">Email: </label>
+            <span id="emailCheck" >Email is missing! </span>
+            <input id="email" type="email" class="form-control">
+        </div>
+        <!--Date-->
+        <div class="form-item">
+            <label for="date">Birth Date:</label>
+            <input id="date" type="date" class="form-control">
+        </div>
+        <!--PName-->
+        <div class="form-item">
+            <label for="pname">Planet name: </label>
+            <span id="pnameCheck" >Planet name is missing! </span>
+            <input id="pname" type="text" class="form-control">
+        </div>
+        <!--Distance-->
+        <div class="form-item">
+            <label for="distance">Distance from Earth:</label>
+            <input id="distance" type="number" min=-500 max=10000 class="form-control">
+        </div>
+        <!--Type-->
+        <div class="form-item">
+            <label for="type">Planet type:</label>
+            <select id="type" class="form-select" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Solid</option>
+            <option>Gas</option>
+            <option>Liquid</option>
+            </select>
+        </div>
+        <!-- Why-->
+        <div class="form-item">
+            <label for="why">Why?</label>
+            <textarea class="form-control" id="why"rows="3"></textarea>
+        </div>
+        <!--Rate-->
+        <div class="form-item">
+            <label for="rate" class="form-label">What would you rate that planet:</label>
+            <input type="range" class="form-range" id="rate" value="0" min="1" max="10" step="1">
+        </div>
+        <!--Buttons-->
+        <button id="submitBtn" type="button" class="btn btn-primary">Submit</button>
+        </form>
+        <div>
+            <h3>Senders:</h3>
+            <ul id="nameList"></ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>The website was made by: Varga Bence</p>
+        <h6>Contact: <a href="" target="_blank">Click here!</a></h6>
+    </footer>
+
+    <script src="scripts/zoomImage.js "></script>
+    <script src="scripts/goToTop.js "></script>
+    <script src="scripts/list.js "></script>
+
+</body>

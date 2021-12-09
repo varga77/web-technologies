@@ -1,0 +1,134 @@
+nav{
+    background-color: #025ca8;
+    padding-top: 16px;
+    padding-bottom: 4px;
+    border-bottom:2px solid midnightblue;
+}
+nav li{
+    font-size: 18px;
+    padding: 0px 15px 15px 0px;
+    display: inline;
+}
+li > a {
+    color:white;
+    text-decoration: none;
+}
+li > a :hover {
+    color:purple;
+}
+li > img{
+    height: 30px;
+}
+footer{
+    height: auto;
+    padding: 20px;
+    text-align:center;
+    border-top: 2px solid midnightblue;
+    background-color: #025ca8;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer h6 > a:hover{
+    color:rgb(0, 255, 13);
+}
+
+footer h6 > a:visited{
+    color:rgb(255, 251, 10);
+}
+
+footer > p{
+    padding: 0px;
+    font-size:14px;
+}
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px 0px;
+    min-height: 500px; 
+    width: 100%;
+    border-bottom: 2px solid midnightblue;
+    border-top: 2px solid midnightblue;
+}
+td > div > img{
+    height: 300px;
+}
+
+td > div {
+    transition: transform .5s;
+}
+ 
+.transition {
+    transform: scale(1.3);
+}
+.block{
+    margin:1% 5%;
+    width: 90%;
+    height: auto;
+    padding:1%;
+    background-color: #025da8a1;
+    font-size: 18px;
+}
+.block p::first-line{
+    font-weight: bold;
+}
+div  h1{
+    text-align: center;
+    padding-top: 2%;
+    text-shadow:4px 4px #025ca8 ;
+}
+#goTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+    background-color: transparent;
+}
+#goTop img{
+    width: 30px;
+}
+#planetTable{
+    width: 70%;
+    color:white;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: center;
+}
+#planetTable>tbody tr:nth-child(odd){
+    background-color:rgba(59, 183, 255, 0.404);
+
+}
+#planetTable>tbody tr:nth-child(even){
+    background-color: rgba(30, 102, 173, 0.329);
+}
+#list{
+    padding:100px;
+}
+#list > form{
+    text-align: center;
+    width: 100%;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#list > div{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+#list > div ul{
+    font-size: 18px;
+}
+.form-item{
+    margin-bottom:10px;
+}
+form span{
+    color:red;
+}
